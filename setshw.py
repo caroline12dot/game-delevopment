@@ -1,0 +1,5 @@
+badminton=set(["r", "t", "e", "c", "w", "s"])
+soccer=set(["w", "i", "l", "e", "c", "t"])
+print(badminton&soccer)
+print(badminton-soccer)
+print(badminton^soccer)
