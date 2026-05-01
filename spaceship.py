@@ -21,7 +21,7 @@ for i in range(9):
       bugs[-1].y=80+50*j
 score=0
 def gameover():
-    screen.draw.text("GAMEOVER",(250,600))
+    screen.draw.text("GAMEOVER",(550,300))
 def update():
     global score, direction
     movedown=False
